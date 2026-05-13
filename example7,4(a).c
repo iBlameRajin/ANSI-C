@@ -7,7 +7,7 @@ int main(){
             scanf("%d",&a[i][j]);
         }
     }
-    int sum;
+    int sum=0;
    for(int m=0;m<4;m++,sum=0){
     for(int n=0;n<3;n++){
         sum=sum+a[m][n];
