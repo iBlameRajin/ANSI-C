@@ -6,7 +6,7 @@ int main(){
     if(a+b>c && b+c>a && c+a>b){
         if(a==b && b==c)
             printf("the triangle is equilataral");
-        else if(a==b || b==c)
+        else if(a==b || b==c || c==a)
             printf("The triangle is isoscales");
         else
             printf("The triangle is scalane");
