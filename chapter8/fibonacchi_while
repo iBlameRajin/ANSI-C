@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main(){
+    int fib,count,n;
+    printf("Enter the number of digit you want to print");
+    scanf("%d",&n);
+    int num1=1;
+    int num2=1;
+    count=0;
+    while(count<n){
+        printf("%d ",num1);
+        fib=num1+num2;
+        num1=num2;
+        num2=fib;
+        count++;
+    }
+return 0;}
